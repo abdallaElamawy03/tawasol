@@ -1,0 +1,7 @@
+
+{
+    
+    "mongoConnectionString":"mongodb+srv://Admin:Admin@cluster0.zmq16.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "jwtsecret":"jwtsecrettoken"
+    
+}

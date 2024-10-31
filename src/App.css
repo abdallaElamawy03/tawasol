@@ -1,0 +1,154 @@
+*{
+   scroll-behavior: auto;
+}
+.h1-head{
+    color: white;
+    transition: 0.3s
+}
+
+body{
+    background-image: url("./Assests/social-app14.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    scroll-behavior: auto;    
+    overflow-x: hidden;
+   
+    
+}
+
+.welcome {
+    font-size: 2.1em;
+    color: white;
+
+}.b1{
+    font-size: 1.5em;
+    background-color: white;
+    margin: 10px;
+    transition: 0.3s;
+
+
+}.b1:hover{
+    opacity: 0.3;
+
+}.active {
+    color: rgb(255, 255, 255) !important;
+    background-color: transparent !important;
+   
+}.c1{
+    background-color: transparent;
+
+}.h1-login{
+    color: white;
+}.ti-login{
+    color:white;
+    text-decoration: none;
+
+}.fg-1{
+    
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+
+    
+}.media-1{
+    font-size: 2em;
+}
+
+.sign-1{
+   text-align: center;
+   background-color: green;
+   padding: 5px;
+    font-size: 1.1em;
+    /* transition: 0.3s; */
+    /* width: 100%; */
+    font-weight: 500;
+
+}.c3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    /* transition: 0.3s; */
+    border: solid green;
+    border-radius: 10px;
+
+}
+  
+.op-sign{
+    transition: 0.3s;
+
+}.op-sign:hover{
+    opacity: 0.8;
+}.btn:hover{
+   color: white ;
+}@media (max-width:800px) {
+    .c3{
+        width: 90%;
+    }body{
+        background-size: cover;
+    }.welcome{
+        width: 100;
+        font-size: 1.4em;
+    }.media-1{
+        font-size: 1.2em;
+    }.c2{
+        margin: 0px;
+
+    }.c5{
+        width: 100%;
+    }body{
+        background-size: cover;
+        height:99vh;
+    }
+        
+    
+}.c2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}.c5{
+    margin: 5px;
+}.plz-s{
+    color: white;
+}.title-fade-out{
+    opacity: 0;
+    animation-name: fade-out;
+    animation-duration: 2s;
+    
+}
+.title-fade-in{
+    opacity: 100;
+    animation-name: fade-in;
+    animation-duration: 2s;
+
+}@keyframes fade-out{
+    from{
+        opacity: 100;
+    }to{
+        opacity: 0;
+    }
+}
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 100;
+    }
+}.lg-i{
+    color: black;
+    text-decoration: none;
+    
+    display: flex;
+    justify-content:center ;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.cardofp{
+    max-width: 540px;
+    margin: 10px;
+    overflow:hidden;
+}
